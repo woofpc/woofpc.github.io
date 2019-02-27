@@ -5,10 +5,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/mochi.gif') {
-      myImage.setAttribute ('src','images/mochi.jpg');
+    if(mySrc === 'images/mochi1.gif') {
+      myImage.setAttribute ('src','images/mochi1.jpg');
     } else {
-      myImage.setAttribute ('src','images/mochi.gif');
+      myImage.setAttribute ('src','images/mochi1.gif');
     }
 }
 
